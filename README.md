@@ -31,3 +31,4 @@ Anytime you want to work again, just run the following command to start the Dock
 ```bash
 docker run -p 8888:8888 -v $(pwd):/home/nobody/work geospatial-notebook
 ```
+Please be sure your notebook runs by adding the needed dependencies to the requirements doc. 

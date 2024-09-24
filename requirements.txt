@@ -1,8 +1,1 @@
-pandas
-geopandas
-shapely
-SQLAlchemy
-psycopg2-binary
-GDAL
-ipykernel
-mermaid
+# add the libraries you might use here
