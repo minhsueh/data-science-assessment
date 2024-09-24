@@ -9,7 +9,7 @@ Your goal in this assessment is to showcase your curiousity and creativity to de
 
 You'll be given two tasks.
 
-The first is a design task, in which we expect you to diagram and describe how you'd set up a process to injest this data from a live streamed source, assuming you are also paying montoring services to supply this data from scratch. Think about how you might transform and store the data efficiently for querying and analysis and feed it into your model. 
+The first is a design task, in which we expect you to diagram and describe how you'd set up a process to injest this data from a live streamed source, assuming you are also paying montoring services to supply this data from scratch. Think about how you might transform and store the data efficiently for querying and analysis and feed it into your model. Justify your use of tools. 
 
 The second task will require you devise interesting questions from preliminary explorations of a subset of migration data, found alongside this notebook, and construct a rigorous model to answer them. Please demonstrate all of your process using this notebook, and most importantly your outputs. 
 
@@ -31,6 +31,6 @@ Anytime you want to work again, just run the following command to start the Dock
 ```bash
 docker run -p 8888:8888 -v $(pwd):/home/nobody/work geospatial-notebook
 ```
-Please be sure your notebook runs by adding the needed dependencies to the requirements doc. 
+Please be sure your notebook runs by adding the needed dependencies to the requirements doc. I would encourage you to avoid external dependencies, like postgres setup for the implementation of your work so that the notebook work works without significant setup. You can demonstrate your knowledge of various infrastructure in your design submission. 
 
-Critiques of this assignment are also welcomed and will contribute to this score. 
+Critiques of this assignment are also welcomed and will contribute to this score. `
