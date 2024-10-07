@@ -1,1 +1,4 @@
 # add the libraries you might use here
+pandas==2.2.3
+geopandas==1.0.1
+matplotlib==3.9.2
